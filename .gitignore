@@ -1,0 +1,29 @@
+@"
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables (IMPORTANT - Contains API Keys!)
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# VS Code
+.vscode/
+
+# Output Files
+*.txt
+campaign_brief_*.txt
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+"@ | Out-File -FilePath .gitignore -Encoding utf8
